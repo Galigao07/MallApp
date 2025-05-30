@@ -1,0 +1,197 @@
+
+.main-container{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+   
+
+    
+}
+.personal-container {
+    top: 0; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.personal-container > .personal:first-child {   
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.personal-container > .personal {
+   flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.personal-container > .personal > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.personal > .form-group {
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap ;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.personal > .form-group > label:first-child {
+  width:100px;
+  font-weight: bold;
+   color: #333;
+}
+
+.personal-skills{
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.personal-skills-container {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.personal-skills-sub{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+        
+ 
+}
+
+
+.personal-skills-title{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #001691;
+    margin-bottom: 10px;
+}
+
+.personal-skills-sub > .form-group {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    color: #333;
+    height: 200px;
+}
+
+.personal-skills-sub > .form-group1{
+    width: 23%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    color: #333;
+    height: 200px;
+}
+
+.personal-skills-sub > .form-group1 > .form-group-sub {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    color: #333;
+    height: 100px;
+}
+.personal-skills-subtitle{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    border-bottom: #333 solid 1px;
+    margin-bottom: 10px;
+}
+.personal-skills-sub > .form-group > label {
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.personal-skills-sub > .form-group1 > .form-group-sub > label {
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.personal-projects-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    ;
+}
+
+
+.personal-projects-container > .form-group{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    color: #333;
+  
+}
+
+.personal-projects-container > .form-group > h2{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    border-bottom: #333 solid 1px;
+    margin-bottom: 10px;
+}
