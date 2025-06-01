@@ -58,7 +58,7 @@ const Personal: React.FC = () => {
             <h1 className="personal-skills-title">Personal Skills</h1>
             <div className="personal-skills-container">
 
-                <h3 className="personal-skills-subtitle-header">Programming Languages</h3>
+                <h2 className="personal-skills-subtitle-header">Programming Languages</h2>
 
                 <div className="personal-skills-sub">
                     <div className='form-group1'>
